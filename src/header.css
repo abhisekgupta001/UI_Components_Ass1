@@ -1,0 +1,79 @@
+.header__container1,
+.header__container2{
+    width: 80%;
+    margin: 0 auto 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 2px solid var(--primary-color);
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.bx__header{
+  padding: 10px;
+  display: grid;
+  place-items: center;
+}
+
+.bx__header:hover {
+    background-color: hsla(271, 97%, 64%, 0.3);
+    border-radius: 50%;
+}
+
+
+.header__container1 header,
+.header__container2 header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .7rem 1rem;
+    font-size: 1.2rem;
+}
+
+.header__container1 main,
+.header__container2 main{
+    padding: .7rem 1rem;
+   
+}
+
+
+header .bx-grid-alt{
+    margin-right: 1rem;
+}
+
+
+.header__buttons{
+    margin-left: auto;
+    display: flex;
+    margin-right: 1rem;
+}
+
+.header__buttons > *{
+    margin-left: 1rem;
+}
+
+.header__container2{
+    position: relative;
+}
+.header__container2 header{
+    position: absolute;
+    margin-left: 0rem;
+    margin-top: 0rem;
+}
+.header__collapsed{
+    width: 15%;
+    justify-content: flex-start;
+    border-bottom-right-radius: 30px;
+    transition: all 1s ease;
+}
+#header{
+
+    /* position: fixed; */
+    transition: all 1s ease;
+}
+
+#header .header__buttons{
+    margin: 0;
+}

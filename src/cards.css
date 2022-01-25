@@ -1,0 +1,146 @@
+
+.card__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card__group{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+ flex: 1;
+ gap: 1rem;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    border-radius: 10px;
+    box-shadow: var(--shadow-light);
+    max-width:300px;
+    align-self: center;
+  }
+
+ 
+  .card__img {
+    width: 100%;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card__person > *{
+    padding:.5rem 0;
+  }
+
+  .card__person,
+  .card__details {
+    padding:0.5rem 1rem;
+  }
+
+.card__author {
+    margin-top: -20px;
+    font-weight: 500;
+    color: rgb(65, 57, 68);
+  }
+
+  .card__details {
+    color: rgb(65, 57, 68);
+  }
+
+  .card__btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+
+.card__btn {
+  color: var(--primary-color);
+  font-weight: 600;
+  border-radius: 4px;
+  background: transparent;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.card__btn:hover {
+    background-color: hsla(261, 42%, 44%, 0.1);
+}
+
+
+/* ------------CARD TWO STYLING------------ */
+.card2{
+    justify-content: flex-start;
+    position: relative;
+}
+.card__position{
+  position: relative;
+}
+.card2 .card__person{
+    position: absolute;
+   bottom:0;
+    left:0;
+    /* padding-left:1rem; */
+    background-image: linear-gradient(0deg,rgba(250, 245, 255,1),rgba(250, 245, 255,.99),rgba(250, 245, 255,.6),rgba(250, 245, 255,.001));
+    /* background-color: white; */
+    width: 100%;
+}
+.card__person .card__title,
+.card__person .card__author{
+    color: var(--primary-color);
+}
+/* ------------CARD three STYLING------------ */
+
+.card3 .card__person{
+   order: -1;
+}
+/* ------------CARD FOUR STYLING------------ */
+.card4{
+    flex-flow: row wrap;
+    align-items: flex-start;
+    
+}
+.card4 .card__img{
+    width:40%;
+    order:1;
+
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px ;
+}
+.card4 .card__person{
+    width:60%;
+    order:2;
+    align-self: flex-start;
+    padding: 0 10px;
+}
+
+
+.card4 .card__details{
+    width:100%;
+    order:3;
+}
+.card4 .card__btns{
+    width:100%;
+    order:4;
+}
+
+
+.bx__card {
+  color: black;
+  font-size: 2rem;
+  padding: 10px;
+  text-align: center;
+}
+.bx__card:hover {
+  background-color: hsla(261, 42%, 44%, 0.1);
+  border-radius: 50%;
+}
+
+

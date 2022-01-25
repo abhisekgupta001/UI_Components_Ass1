@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url(./reset.css);
+@import url(./nav.css);
+@import url(./cards.css);
+@import url(./chips.css);
+@import url(./drawer.css);
+@import url(./badges.css);
+@import url(./snackbar.css);
+@import url(./tabs.css);
+@import url(./header.css);
+@import url(./dialog.css);
+
+
+
+:root{
+  --primary-color:rgb(115, 2, 207);
+  --primary-light:rgb(199, 163, 235);
+  --secondary:rgb(146, 44, 241);
+  --text-dark:rgb(22, 0, 41);
+  --text-light:rgb(242, 230, 255);
+  --white:rgb(250, 245, 255);
+  --black:rgb(7, 2, 12);
+
+  --shadow-light:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* =========BASIC RESETS========= */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body,button,input {
+  font-family: "Poppins", sans-serif;
+}
+a,a:active,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
