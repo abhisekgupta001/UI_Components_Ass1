@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>BRICK UI | Dialog</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo"><a href="./index.html"> BRICK UI</a></h2>
+        <ul>
+          <li><a href="./cards.html">CARDS</a></li>
+          <li><a href="./chips.html">CHIPS</a></li>
+          <li><a href="./drawer.html">DRAWER</a></li>
+          <li><a href="./badges.html">BADGES</a></li>
+          <li><a href="./header.html">HEADER</a></li>
+          <li><a href="./snackbar.html">SNACKBAR</a></li>
+          <li><a href="./dialog.html">DIALOG</a></li>
+          <li><a href="./tabs.html">TABS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section__dialog section">
+      <h2 class="section__title">DIALOG SECTION</h2>
+      <div class="dialog__container container">
+        <button class="dialog__btn--open">Click to open Dialog</button>
+        <div class="dialog__modal">
+          <div class="dialog__card">
+            <h3 class="dialog__header">Dialog Header</h3>
+            <div class="dialog__text">Dialog body Text</div>
+            <div class="dialog__btns">
+              <button class="modal__action modal__action1">Action 1</button>
+              <button class="modal__action modal__action2">Action 2</button>
+            </div>
+            <i class="bx bxs-x-circle bx__chip close__btn"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./src/js/dialog.js"></script>
+  </body>
+</html>

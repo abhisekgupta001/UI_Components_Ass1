@@ -1,0 +1,70 @@
+/* ===============CHIPS SECTION ================= */
+
+.chip__container{
+    background-color: var(--white);
+    width: 40%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 10px;
+    padding: 0 1rem;
+    
+}
+.chip__container > * {
+    display: block;
+    padding: 1rem 0;
+}
+
+
+.input__label{
+font-family: inherit;
+font-size:1rem;
+}
+
+.input__area{
+    border: none;
+    outline: none;
+    padding: .8rem 1rem;
+    background-color: var(--primary-light);
+    color: var(--primary-dark);
+    border-radius: 30px;
+    font-size: 1rem;
+    width: 98%;
+}
+
+.chips__displayer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.chip{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 30px;
+}
+.chip> *{   
+    padding: 5px 4px;
+    color: white;
+}
+
+.chip > *:nth-child(3),
+.chip > *:nth-child(1)
+{
+   margin-bottom: -4px;
+   font-size: 1.5rem;
+}
+
+
+.bxs-x-circle:hover{
+    color: rgb(219, 218, 218);
+}

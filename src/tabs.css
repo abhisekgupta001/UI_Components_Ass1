@@ -1,0 +1,33 @@
+.tabs__container{
+    display: grid;
+    place-items: center;
+    width: 60%;
+    height:30vh;
+    background-color: var(--white);
+    border-radius: 5px;
+}
+
+.simple__tabs,
+.icon__tabs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.simple__tabs > *,
+.icon__tabs > * {
+    padding: .4rem 1rem;
+    background-color: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: white;
+    transition: all .3s ease;
+
+}
+
+.active__tab{
+    border-color: transparent;
+    border-bottom-color: white;
+    background-color:rgb(173, 131, 241);
+    transition: all .3s ease;
+
+}

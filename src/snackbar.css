@@ -1,0 +1,46 @@
+.layout{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.snackbar__button--container{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.snackbar__button--container .btn {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+    transition: all .3s ease-in-out;
+}
+.snackbar__button--container .btn:hover{
+    background-image: linear-gradient(45deg,rgb(184, 136, 247), rgb(74, 100, 245));
+    color: white;
+}
+
+.snackbar__container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.snack{
+    background-color: var(--primary-light);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem .4rem;
+    visibility: hidden;
+    gap: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+.show-snackbar{
+    visibility: visible;
+}

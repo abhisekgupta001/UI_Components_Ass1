@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+    <title>BRICK UI | Snackbar</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h2 class="logo"><a href="./index.html"> BRICK UI</a></h2>
+        <ul>
+          <li><a href="./cards.html">CARDS</a></li>
+          <li><a href="./chips.html">CHIPS</a></li>
+          <li><a href="./drawer.html">DRAWER</a></li>
+          <li><a href="./badges.html">BADGES</a></li>
+          <li><a href="./header.html">HEADER</a></li>
+          <li><a href="./snackbar.html">SNACKBAR</a></li>
+          <li><a href="./dialog.html">DIALOG</a></li>
+          <li><a href="./tabs.html">TABS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section__snackbar section">
+      <h2 class="section__title">SNACKBAR SECTION</h2>
+
+      <div class="layout">
+        <div class="snackbar__button--container container">
+          <button class="btn btn__baseline">Baseline</button>
+          <button class="btn btn__leading">Leading</button>
+          <button class="btn btn__stacked">Stacked</button>
+        </div>
+
+        <div class="snackbar__container">
+          <div class="snack baseline__snack">
+            <span>Can't send photo. Retry after 5 seconds</span>
+            <a href="#">RETRY</a>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <div class="snack leading__snack">
+            <span>Your Photo has been archived</span>
+            <a href="#">UNDO</a>
+            <i class="bx bx-x"></i>
+          </div>
+
+          <div class="snack stacked__snack">
+            <span>This item already has the label.</span>
+            <a href="#">NEW LABEL</a>
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./src/js/snackbar.js"></script>
+  </body>
+</html>
