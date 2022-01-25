@@ -3,6 +3,19 @@
 .section{
     padding: 1rem 0 2rem;
 }
+.home__section{
+  width: 50%;
+  margin: 0 auto;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__heading{
+  color: var(--primary-color);
+}
+
 
 .section__title{
   text-align: center;
