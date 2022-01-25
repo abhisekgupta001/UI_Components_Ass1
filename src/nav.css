@@ -1,5 +1,6 @@
 header{
    width: 100%; 
+   margin: 0 auto;
    background-color: rgb(115, 2, 207);
    color: white;
 }
