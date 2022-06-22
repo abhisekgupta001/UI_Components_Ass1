@@ -9,6 +9,7 @@
     border-radius: 10px;
     gap: 1rem;
 }
+
 .badges__container > * {
     position: relative;
 }

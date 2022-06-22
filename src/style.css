@@ -49,3 +49,18 @@ img{
     object-fit: cover;
 }
 
+.clay{
+    padding: .8rem 1.2rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: #ff69b4;
+    color: white;
+    border-radius: 1rem;
+
+    box-shadow: inset -4px -4px 8px #aa3771, inset 6px 6px 12px #f3bed9, 4px 4px 8px hsl(330, 46%, 43%);
+    transition: box-shadow .3s ease-in;
+}
+.clay:hover{
+    box-shadow: inset -1px -1px 6px #aa3771, inset 1px 1px 4px #f3bed9;  /*1px 1px 2px hsl(330, 46%, 43%)*/
+}
